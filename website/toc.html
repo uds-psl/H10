@@ -1,0 +1,606 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link href="coqdoc.css" rel="stylesheet" type="text/css" />
+<link href="coqdocjs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="config.js"></script>
+<script type="text/javascript" src="coqdocjs.js"></script>
+</head>
+
+<body onload="document.getElementById('content').focus()">
+  <div id="header">
+    <span class="left">
+      <span class="modulename"> <script> document.write(document.title) </script> </span>
+    </span>
+
+    <span class="button" id="toggle-proofs"></span>
+
+    <span class="right">
+      <a href="../">Project Page</a>
+      <a href="./indexpage.html"> Index </a>
+      <a href="./toc.html"> Table of Contents </a>
+    </span>
+</div>
+    <div id="content" tabindex="-1" onblur="document.getElementById('content').focus()">
+    <div id="main">
+<div id="toc">
+<ul class="doclist">
+<li><a href="Undecidability.Shared.Prelim.html#lab1">Preliminaries</a>
+<ul class="doclist">
+<li><a href="Undecidability.Shared.Prelim.html#lab2">Lists</a>
+
+</li>
+<li><a href="Undecidability.Shared.Prelim.html#lab3">Tactics</a>
+
+</li>
+<li><a href="Undecidability.Shared.Prelim.html#lab4">Boolean propositions and decisions</a>
+
+</li>
+<li><a href="Undecidability.Shared.Prelim.html#lab5">Discrete types</a>
+
+</li>
+<li><a href="Undecidability.Shared.Prelim.html#lab6">Lists</a>
+<ul class="doclist">
+<li><a href="Undecidability.Shared.Prelim.html#lab7">Decisions for lists</a>
+
+</li>
+<li><a href="Undecidability.Shared.Prelim.html#lab8">Membership</a>
+
+</li>
+<li><a href="Undecidability.Shared.Prelim.html#lab9">Disjointness</a>
+
+</li>
+<li><a href="Undecidability.Shared.Prelim.html#lab10">Inclusion</a>
+
+</li>
+<li><a href="Undecidability.Shared.Prelim.html#lab11">Setoid rewriting with list inclusion and list equivalence</a>
+
+</li>
+<li><a href="Undecidability.Shared.Prelim.html#lab12">Filter</a>
+
+</li>
+<li><a href="Undecidability.Shared.Prelim.html#lab13">Element removal</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.Problems.PCP.html#lab14">Traditional Definition</a>
+
+</li>
+<li><a href="Undecidability.Problems.PCP.html#lab15">Inductive Definition</a>
+
+</li>
+<li><a href="Undecidability.Problems.PCP.html#lab16">Binary PCP</a>
+
+</li>
+<li><a href="Undecidability.Problems.PCP.html#lab17">Binary Post correspondence problem with indices</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.FOL.DecidableEnumerable.html#lab18">Decidability and Enumerability</a>
+<ul class="doclist">
+<li><a href="Undecidability.FOL.DecidableEnumerable.html#lab19">Closure of enumerable types</a>
+
+</li>
+<li><a href="Undecidability.FOL.DecidableEnumerable.html#lab20">Enumerability of pairs of natural numbers</a>
+
+</li>
+<li><a href="Undecidability.FOL.DecidableEnumerable.html#lab21">Discrete types are closed under ...</a>
+
+</li>
+<li><a href="Undecidability.FOL.DecidableEnumerable.html#lab22">Enumerable types are closed under ...</a>
+
+</li>
+<li><a href="Undecidability.FOL.DecidableEnumerable.html#lab23">Enumerable predicates are closed under ...</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.FOL.Reductions.html#lab24">Many-One Reductions</a>
+
+</li>
+<li><a href="Undecidability.FOL.MarkovPost.html#lab25">Post's Theorem and Markov's Principle</a>
+
+</li>
+<li><a href="Undecidability.FOL.PCP.html#lab26">Post Correspondence Problem</a>
+<ul class="doclist">
+<li><a href="Undecidability.FOL.PCP.html#lab27">Enumerability</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.FOL.FOL.html#lab28">First-Order Logic</a>
+<ul class="doclist">
+<li><a href="Undecidability.FOL.FOL.html#lab29">Syntax</a>
+
+</li>
+<li><a href="Undecidability.FOL.FOL.html#lab30">Enumerability</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.FOL.Semantics.html#lab31">Tarski Semantics</a>
+<ul class="doclist">
+<li><a href="Undecidability.FOL.Semantics.html#lab32">Variables and Substitutions</a>
+
+</li>
+<li><a href="Undecidability.FOL.Semantics.html#lab33">Interpretations</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.FOL.Deduction.html#lab34">Natural Deduction</a>
+<ul class="doclist">
+<li><a href="Undecidability.FOL.Deduction.html#lab35">Definition</a>
+
+</li>
+<li><a href="Undecidability.FOL.Deduction.html#lab36">Soundness</a>
+
+</li>
+<li><a href="Undecidability.FOL.Deduction.html#lab37">Generalised Induction</a>
+
+</li>
+<li><a href="Undecidability.FOL.Deduction.html#lab38">Enumerability</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.FOL.Kripke.html#lab39">Kripke Semantics</a>
+<ul class="doclist">
+<li><a href="Undecidability.FOL.Kripke.html#lab40">Kripke Models</a>
+
+</li>
+<li><a href="Undecidability.FOL.Kripke.html#lab41">Connection to Tarski Semantics</a>
+
+</li>
+<li><a href="Undecidability.FOL.Kripke.html#lab42">Soundness</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.FOL.BPCP_FOL.html#lab43">FOL Reductions</a>
+<ul class="doclist">
+<li><a href="Undecidability.FOL.BPCP_FOL.html#lab44">Validity</a>
+
+</li>
+<li><a href="Undecidability.FOL.BPCP_FOL.html#lab45">Provability</a>
+
+</li>
+<li><a href="Undecidability.FOL.BPCP_FOL.html#lab46">Satisfiability</a>
+
+</li>
+<li><a href="Undecidability.FOL.BPCP_FOL.html#lab47">Corollaries</a>
+
+</li>
+<li><a href="Undecidability.FOL.BPCP_FOL.html#lab48">Non-Standard Model</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.FOL.BPCP_IFOL.html#lab49">Intuitionistic FOL</a>
+<ul class="doclist">
+<li><a href="Undecidability.FOL.BPCP_IFOL.html#lab50">Reductions</a>
+
+</li>
+<li><a href="Undecidability.FOL.BPCP_IFOL.html#lab51">Corollaries</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.FOL.BPCP_CND.html#lab52">Classical Natural Deduction</a>
+<ul class="doclist">
+<li><a href="Undecidability.FOL.BPCP_CND.html#lab53">Double Negation Translation</a>
+
+</li>
+<li><a href="Undecidability.FOL.BPCP_CND.html#lab54">Reduction</a>
+
+</li>
+<li><a href="Undecidability.FOL.BPCP_CND.html#lab55">Corollaries</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.FOL.Weakening.html#lab56">Weakening</a>
+
+</li>
+<li><a href="Undecidability.FOL.Infinite.html#lab57">Infinite Data Types</a>
+<ul class="doclist">
+<li><a href="Undecidability.FOL.Infinite.html#lab58">Definition of infinite and generating types</a>
+
+</li>
+<li><a href="Undecidability.FOL.Infinite.html#lab59">Infinite data types are generating</a>
+
+</li>
+<li><a href="Undecidability.FOL.Infinite.html#lab60">Generating data types are infinite</a>
+
+</li>
+<li><a href="Undecidability.FOL.Infinite.html#lab61">Generating data types are in bijection to nat</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.L.Preliminaries.html#lab62">Preliminaries</a>
+
+</li>
+<li><a href="Undecidability.L.L.html#lab63">Definition of L</a>
+<ul class="doclist">
+<li><a href="Undecidability.L.L.html#lab64">Syntax</a>
+
+</li>
+<li><a href="Undecidability.L.L.html#lab65">Named abstractions</a>
+
+</li>
+<li><a href="Undecidability.L.L.html#lab66">Substitution and closedness</a>
+
+</li>
+<li><a href="Undecidability.L.L.html#lab67">Named procedures</a>
+
+</li>
+<li><a href="Undecidability.L.L.html#lab68">Evaluation relation</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.L.L.html#lab69">Uniformly confluent reduction semantics</a>
+<ul class="doclist">
+<li><a href="Undecidability.L.L.html#lab70">One-step reduction</a>
+
+</li>
+<li><a href="Undecidability.L.L.html#lab71">Reflexive-transitive closure and step-indexed closure</a>
+
+</li>
+<li><a href="Undecidability.L.L.html#lab72">Recursion operator</a>
+
+</li>
+<li><a href="Undecidability.L.L.html#lab73">Reduction equivalence</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.L.Tactics.html#lab74">Automation for equivalences and reductions</a>
+<ul class="doclist">
+<li><a href="Undecidability.L.Tactics.html#lab75">Tactics for closedness and abstractions</a>
+
+</li>
+<li><a href="Undecidability.L.Tactics.html#lab76">Tactics to solve equivalences and reductions</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.L.Encodings.html#lab77">Scott encoding of numbers</a>
+
+</li>
+<li><a href="Undecidability.L.Encodings.html#lab78">Scott encoding of terms</a>
+<ul class="doclist">
+<li><a href="Undecidability.L.Encodings.html#lab79">Scott encoding of booleans</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.L.DecidableRecognisable.html#lab80">Decidable and recognisable classes</a>
+<ul class="doclist">
+<li><a href="Undecidability.L.DecidableRecognisable.html#lab81">Definition of decidable classes</a>
+
+</li>
+<li><a href="Undecidability.L.DecidableRecognisable.html#lab82">Definition of recognisable classes</a>
+
+</li>
+<li><a href="Undecidability.L.DecidableRecognisable.html#lab83">Decidable classes are closed under union, intersection and complement</a>
+
+</li>
+<li><a href="Undecidability.L.DecidableRecognisable.html#lab84">There is an undecidable class</a>
+
+</li>
+<li><a href="Undecidability.L.DecidableRecognisable.html#lab85">Recognisable classes are closed under intersection</a>
+
+</li>
+<li><a href="Undecidability.L.DecidableRecognisable.html#lab86">Decidable classes are recognisable and coregnisable</a>
+
+</li>
+<li><a href="Undecidability.L.DecidableRecognisable.html#lab87">Scott's theorem</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.L.Rice.html#lab88">Reduction lemma and Rice’s theorem</a>
+<ul class="doclist">
+<li><a href="Undecidability.L.Rice.html#lab89">Closedness is decidable</a>
+
+</li>
+<li><a href="Undecidability.L.Rice.html#lab90">Reduction lemma</a>
+
+</li>
+<li><a href="Undecidability.L.Rice.html#lab91">Rice's lemma and Rice's theorem</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.L.Interpreter.html#lab92">Step-indexed interpreter and modesty</a>
+<ul class="doclist">
+<li><a href="Undecidability.L.Interpreter.html#lab93">Step-indexed interpreter</a>
+
+</li>
+<li><a href="Undecidability.L.Interpreter.html#lab94">Modesty</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.L.InterpreterResults.html#lab95">Results obtained with self-interpreters</a>
+<ul class="doclist">
+<li><a href="Undecidability.L.InterpreterResults.html#lab96">Step-indexed self-interpreter</a>
+<ul class="doclist">
+<li><a href="Undecidability.L.InterpreterResults.html#lab97">Encoding of options</a>
+
+</li>
+<li><a href="Undecidability.L.InterpreterResults.html#lab98">Equality of encoded natural numbers</a>
+
+</li>
+<li><a href="Undecidability.L.InterpreterResults.html#lab99">Substitution</a>
+
+</li>
+<li><a href="Undecidability.L.InterpreterResults.html#lab100">Step-indexed self-interpreter</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.L.InterpreterResults.html#lab101">Class of total procedures is unrecognisable</a>
+
+</li>
+<li><a href="Undecidability.L.InterpreterResults.html#lab102">Self-interpreter</a>
+
+</li>
+<li><a href="Undecidability.L.Por.html#lab103">Parallel or</a>
+
+</li>
+<li><a href="Undecidability.L.Por.html#lab104">Post's theorem</a>
+
+</li>
+<li><a href="Undecidability.L.Por.html#lab105">Recognisable classes are closed under union</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.L.Enumerable.html#lab106">Enumerable classes</a>
+<ul class="doclist">
+<li><a href="Undecidability.L.Enumerable.html#lab107">Definition of enumerable classes</a>
+
+</li>
+<li><a href="Undecidability.L.Enumerable.html#lab108">Enumerable classes are recognisable</a>
+<ul class="doclist">
+<li><a href="Undecidability.L.Enumerable.html#lab109">Equality of encoded terms</a>
+
+</li>
+<li><a href="Undecidability.L.Enumerable.html#lab110">Search using Choose</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.L.Enumerable.html#lab111">The class of all terms is enumerable</a>
+
+</li>
+<li><a href="Undecidability.L.Enumerable.html#lab112">Procedural realisation of enumeration</a>
+
+</li>
+<li><a href="Undecidability.L.Enumerable.html#lab113">Some list procedures</a>
+
+</li>
+<li><a href="Undecidability.L.Enumerable.html#lab114">Recognisable classes are enumerable</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.L.Markov.html#lab115">Markov's principle</a>
+
+</li>
+<li><a href="Undecidability.L.Reduction.html#lab116">Reducability</a>
+
+</li>
+<li><a href="Undecidability.L.Extras.html#lab117">Additional results not mentioned in the paper</a>
+<ul class="doclist">
+<li><a href="Undecidability.L.Extras.html#lab118">Natural numbers</a>
+<ul class="doclist">
+<li><a href="Undecidability.L.Extras.html#lab119">Predecessor and multiplication</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.L.Extras.html#lab120">Trivial and finite classes are decidable</a>
+
+</li>
+<li><a href="Undecidability.L.Extras.html#lab121">First fixed-point theorem</a>
+
+</li>
+<li><a href="Undecidability.L.Extras.html#lab122">Some corollaries of Rice's theorem</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.L.Extras.html#lab123">Lines of code for major results</a>
+
+</li>
+<li><a href="Undecidability.PCP.Definitions.html#lab124">Definitions</a>
+<ul class="doclist">
+<li><a href="Undecidability.PCP.Definitions.html#lab125">Post Correspondence Problem</a>
+
+</li>
+<li><a href="Undecidability.PCP.Definitions.html#lab126">String Rewriting</a>
+
+</li>
+<li><a href="Undecidability.PCP.Definitions.html#lab127">Post Grammars</a>
+
+</li>
+<li><a href="Undecidability.PCP.Definitions.html#lab128">Alphabets</a>
+<ul class="doclist">
+<li><a href="Undecidability.PCP.Definitions.html#lab129">Fresh symbols</a>
+
+</li>
+</ul>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.PCP.SRH_SR.html#lab130">SRH to SR</a>
+
+</li>
+<li><a href="Undecidability.PCP.SR_MPCP.html#lab131">SR to MPCP</a>
+
+</li>
+<li><a href="Undecidability.PCP.MPCP_PCP.html#lab132">MPCP to PCP</a>
+
+</li>
+<li><a href="Undecidability.PCP.PCP_CFP.html#lab133">PCP to CFP</a>
+
+</li>
+<li><a href="Undecidability.PCP.PCP_CFI.html#lab134">PCP to CFI</a>
+
+</li>
+<li><a href="Undecidability.PCP.singleTM.html#lab135">TM to SRH</a>
+<ul class="doclist">
+<li><a href="Undecidability.PCP.singleTM.html#lab136">Definition of single-tape Turing Machines</a>
+
+</li>
+<li><a href="Undecidability.PCP.TM_SRH.html#lab137">TM to SR with finite types</a>
+
+</li>
+<li><a href="Undecidability.PCP.TM_SRH.html#lab138">SR with finite types to SR</a>
+
+</li>
+<li><a href="Undecidability.PCP.TM_SRH.html#lab139">TM to SRH'</a>
+
+</li>
+<li><a href="Undecidability.PCP.TM_SRH.html#lab140">SRH' to SRH</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.PCP.Post_CFG.html#lab141">Post grammars are context-free</a>
+
+</li>
+<li><a href="Undecidability.PCP.CFP_CFI.html#lab142">CFP to CFI</a>
+<ul class="doclist">
+<li><a href="Undecidability.ILL.PCP_BPCP.html#lab143">PCP reduces to BPCP</a>
+
+</li>
+<li><a href="Undecidability.ILL.BPCP_iBPCP.html#lab144">BPCP reduces to iBPCP</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.ILL.Code.sss.html#lab145">Code</a>
+<ul class="doclist">
+<li><a href="Undecidability.ILL.Code.sss.html#lab146">Syntax</a>
+
+</li>
+<li><a href="Undecidability.ILL.Code.sss.html#lab147">Semantics</a>
+
+</li>
+<li><a href="Undecidability.ILL.Code.sss.html#lab148">Compisitional Reasoning over Subcode</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.ILL.Code.compiler.html#lab149">A certified low-level compiler</a>
+
+</li>
+<li><a href="Undecidability.ILL.Bsm.bsm_defs.html#lab150">Binary Stack Machines</a>
+<ul class="doclist">
+<li><a href="Undecidability.ILL.Bsm.bsm_defs.html#lab151">Semantics for BSM</a>
+
+</li>
+<li><a href="Undecidability.ILL.Bsm.bsm_pcp.html#lab152">iBPCP reduces to BSM</a>
+
+</li>
+<li><a href="Undecidability.ILL.Code.compiler_correction.html#lab153">Semantic Correctness of Compiled Code</a>
+
+</li>
+<li><a href="Undecidability.ILL.Code.compiler_correction.html#lab154">A Syntactically Correct Compiler</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.ILL.Mm.mm_defs.html#lab155">Minsky Machines</a>
+<ul class="doclist">
+<li><a href="Undecidability.ILL.Mm.mm_defs.html#lab156">Semantics for MM</a>
+
+</li>
+<li><a href="Undecidability.ILL.Mm.mm_utils.html#lab157">Simulating Binary Stacks with numbers</a>
+
+</li>
+<li><a href="Undecidability.ILL.Mm.mm_comp.html#lab158">BSM recues to MM</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.ILL.Ll.ill.html#lab159">Intuionistic Linear Logic</a>
+<ul class="doclist">
+<li><a href="Undecidability.ILL.Ll.eill.html#lab160">eILL reduces to ILL</a>
+
+</li>
+<li><a href="Undecidability.ILL.Ll.eill_mm.html#lab161">MM reduces to eILL</a>
+
+</li>
+</ul>
+
+</li>
+<li><a href="Undecidability.ILL.UNDEC.html#lab162">List of all results</a>
+
+</li>
+<li><a href="Undecidability.ILL.UNDEC.html#lab163">Formal Undecidability</a>
+
+</li>
+<li><a href="Undecidability.H10.ArithLibs.luca.html#lab164">expo (N-K) p * fact (N-K) * φ (N-K) (n0-k0) * Ψ (N-K)</a>
+
+</li>
+<li><a href="Undecidability.H10.ArithLibs.luca.html#lab165">binomial n k</a>
+
+</li>
+<li><a href="Undecidability.H10.ArithLibs.luca.html#lab166">expo (N-(K+1)) p * fact (N-(K+1)) * φ (N-(K+1)) (p-(k0-n0)) * Ψ (N-(K+1))</a>
+
+</li>
+<li><a href="Undecidability.H10.ArithLibs.luca.html#lab167">binomial n k</a>
+
+</li>
+</ul>
+</div>
+</div>
+<div id="footer">
+  Generated by <a href="http://coq.inria.fr/">coqdoc</a> and improved with <a href="https://github.com/tebbi/coqdocjs">CoqdocJS</a>
+</div>
+</div>
+</body>
+
+</html>
