@@ -1,56 +1,17 @@
-# A library of formalised undecidable problems in Coq
+# Hilbert's tenth problem in Coq
 
-This library contains undecidable problems and formalised reductions between them.
-Feel free to contribute or start using the problems!
+Dominique Larchey-Wendling <dominique.larchey-wendling@loria.fr>, Yannick Forster <forster@ps.uni-saarland.de>
 
-## Existing undecidable problems
+This repository contains the Coq formalisation of the paper "Hilbert's tenth problem in Coq" ([pre-print](https://www.ps.uni-saarland.de/Publications/documents/Larchey-WendlingForster_2019_H10_in_Coq.pdf)), currently under review.
 
-- Post correspondence problem (`PCP` in [`Problems/PCP.v`](Problems/PCP.v))
-- Halting problem for Turing machines (`Halt` in [`Problems/TM.v`](Problems/TM.v))
-- Halting problem for Minsky machines (`MM_HALTING` in [`Problems/MM.v`](Problems/MM.v))
-- Halting problem for Binary Stack Machines (`BSM_HALTING` in [`Problems/BSM.v`](Problems/BSM.v))
-- Halting problem for the call-by-value lambda-calculus (`eva` in [`Problems/L.v`](Problems/L.v))
-- String rewriting (`SR` in [`Problems/SR.v`](Problems/SR.v))
-- Entailment in Elementary Intuitionistic Linear Logic (`EILL_PROVABILITY` in [`Problems/ILL.v`](Problems/ILL.v))
-- Entailment in Intuitionistic Linear Logic (`ILL_PROVABILITY` in [`Problems/ILL.v`](Problems/ILL.v))
-- Provability in Minimal (Intuitionistic, Classical) First-Order Logic (`prv` in [`Problems/FOL.v`](Problems/FOL.v))
-- Validity in Minimal (Intuitionistic, Classical) First-Order Logic (`valid` in [`Problems/FOL.v`](Problems/FOL.v), `kvalid` in [`Problems/FOL.v`](Problems/FOL.v))
-- Satisfiability in Intuitionistic (Classical) First-Order Logic (`satis` in [`Problems/FOL.v`](Problems/FOL.v), `ksatis` in [`Problems/FOL.v`](Problems/FOL.v))
-- Halting problem for FRACTRAN programs (`FRACTRAN_REG_HALTING` in [`Problems/FRACTRAN.v`](Problems/FRACTRAN.v))
-- Satisfiability for elementary diophantine constraints (`DIO_ELEM_SAT` 
-  in [`Problems/DIOPHANTINE.v`](Problems/DIOPHANTINE.v))
-- Hilbert's 10th problem, i.e. solvability of a single diophantine equation (`H10` in 
-  in [`Problems/DIOPHANTINE.v`](Problems/DIOPHANTINE.v))
+## How to compile the code
 
-## How to build
+Clone the repo using `git clone https://github.com/uds-psl/H10.git`, then `cd H10` and `make -j 5` should do the job. The files are tested to compile with `The Coq Proof Assistant, version 8.8.2 (October 2018)`.
 
-- the subprojects are currently in subdirectories, roughly corresponding to papers or theses covering them
-- `make all` builds all subprojects by calling `make all` of the corresponding subproject's makefile
-- `make html` generates clickable coqdoc `.html` in the `website` subdirectory
-- `make clean` removes all build files and `.html` files
-- the `gh-pages` branch contains a snapshot of the `html` files and this `README` file and is accessible under `uds-psl.github.io/coq-library-undecidability`
+The compiled HTML version of the files can be found [here](https://uds-psl.github.io/H10/website/toc.html) or in the `website` subdirectory of this repository.
 
-## Published work
+# A Coq library of undecidable problems
 
-- Verification of PCP-Related Computational Reductions in Coq. Yannick Forster, Edith Heiter, and Gert Smolka. ITP 2018. Subdirectory `PCP`. https://ps.uni-saarland.de/extras/PCP 
-- Towards a library of formalised undecidable problems in Coq: The undecidability of intuitionistic linear logic. Yannick Forster and Dominique Larchey-Wendling. LOLA 2018. Subdirectory `ILL`. https://www.ps.uni-saarland.de/~forster/downloads/LOLA-2018-coq-library-undecidability.pdf 
--  Certified Undecidability of Intuitionistic Linear Logic via Binary Stack Machines and Minsky Machines. Yannick Forster and Dominique Larchey-Wendling. CPP '19. Subdirectory `ILL`. http://uds-psl.github.io/ill-undecidability/
--  On Synthetic Undecidability in Coq, with an Application to the Entscheidungsproblem. Yannick Forster, Dominik Kirst, and Gert Smolka. CPP '19. Subdirectory `FOL`. https://www.ps.uni-saarland.de/extras/fol-undec
-- Call-by-Value Lambda Calculus as a Model of Computation in Coq. Yannick Forster and Gert Smolka. Journal of Automated Reasoning (2018). https://www.ps.uni-saarland.de/extras/L-computability/
+This repo is a static snapshot of our [library of undecidable problems](https://github.com/uds-pls/coq-library-undecidability) together with the html version of the code. Note that the repository also contains other, unrelated parts of the library, contributed by Yannick Forster, Edith Heiter, Dominik Kirst, Dominique Larchey-Wendling, and Gert Smolka.
 
-## How to contribute
-
-- Fork the repository using the `Fork` button.
-- Create a new subdirectory for your project and add your files.
-- Add a license for your project.
-- Edit the "Existing undecidable problems" and the "Contributors" section in this file
-- File a pull request.
-
-## Contributors
-
-- Yannick Forster (@yforster)
-- Edith Heiter
-- Dominik Kirst (@dominik-kirst)
-- Dominique Larchey-Wendling (@DmxLarchey)
-- Gert Smolka
-
+An overview over the code is in Appendix A of the ([paper](https://www.ps.uni-saarland.de/Publications/documents/Larchey-WendlingForster_2019_H10_in_Coq.pdf)).
