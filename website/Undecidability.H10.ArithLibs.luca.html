@@ -36,6 +36,15 @@
 <span class="comment">(**************************************************************)</span><br/>
 
 <br/>
+</div>
+
+<div class="doc">
+<a name="lab183"></a><h2 class="section">Luca's theorem</h2>
+
+</div>
+<div class="code">
+
+<br/>
 <span class="id" title="keyword">Require</span> <span class="id" title="keyword">Import</span> <a class="idref" href="http://coq.inria.fr/distrib/V8.8.2/stdlib//Coq.Arith.Arith.html#"><span class="id" title="library">Arith</span></a> <a class="idref" href="http://coq.inria.fr/distrib/V8.8.2/stdlib//Coq.Init.Nat.html#"><span class="id" title="library">Nat</span></a> <a class="idref" href="http://coq.inria.fr/distrib/V8.8.2/stdlib//Coq.omega.Omega.html#"><span class="id" title="library">Omega</span></a> <a class="idref" href="http://coq.inria.fr/distrib/V8.8.2/stdlib//Coq.micromega.Lia.html#"><span class="id" title="library">Lia</span></a> <a class="idref" href="http://coq.inria.fr/distrib/V8.8.2/stdlib//Coq.Lists.List.html#"><span class="id" title="library">List</span></a>.<br/>
 <span class="id" title="keyword">Require</span> <span class="id" title="keyword">Import</span> <a class="idref" href="Undecidability.Shared.Libs.DLW.Utils.utils_tac.html#"><span class="id" title="library">utils_tac</span></a> <a class="idref" href="Undecidability.Shared.Libs.DLW.Utils.gcd.html#"><span class="id" title="library">gcd</span></a> <a class="idref" href="Undecidability.Shared.Libs.DLW.Utils.prime.html#"><span class="id" title="library">prime</span></a> <a class="idref" href="Undecidability.Shared.Libs.DLW.Utils.binomial.html#"><span class="id" title="library">binomial</span></a> <a class="idref" href="Undecidability.Shared.Libs.DLW.Utils.sums.html#"><span class="id" title="library">sums</span></a> <a class="idref" href="Undecidability.H10.ArithLibs.Zp.html#"><span class="id" title="library">Zp</span></a> <a class="idref" href="Undecidability.Shared.Libs.DLW.Utils.rel_iter.html#"><span class="id" title="library">rel_iter</span></a>.<br/>
 
@@ -219,10 +228,8 @@ rewrite the binomial theorem
 <div class="paragraph"> </div>
 
         expo K     p * fact K     * φ K      k0     * Ψ K
-<a name="lab164"></a><h1 class="section">expo (N-K) p * fact (N-K) * φ (N-K) (n0-k0) * Ψ (N-K)</h1>
-
-<a name="lab165"></a><h1 class="section">binomial n k</h1>
-
+      .* expo (N-K) p * fact (N-K) * φ (N-K) (n0-k0) * Ψ (N-K)
+      .* binomial n k 
       = expo N p     * fact N     * φ N      n0     * Ψ N.
 
 <div class="paragraph"> </div>
@@ -266,10 +273,8 @@ rewrite the binomial theorem
 <div class="paragraph"> </div>
 
         expo K         p * fact K         * φ K          k0         * Ψ K
-<a name="lab166"></a><h1 class="section">expo (N-(K+1)) p * fact (N-(K+1)) * φ (N-(K+1)) (p-(k0-n0)) * Ψ (N-(K+1))</h1>
-
-<a name="lab167"></a><h1 class="section">binomial n k</h1>
-
+      .* expo (N-(K+1)) p * fact (N-(K+1)) * φ (N-(K+1)) (p-(k0-n0)) * Ψ (N-(K+1))
+      .* binomial n k 
       = expo N p     * fact N     * φ N      n0     * Ψ N.
 
 <div class="paragraph"> </div>
