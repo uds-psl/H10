@@ -2,7 +2,7 @@
 
 Dominique Larchey-Wendling <dominique.larchey-wendling@loria.fr>, Yannick Forster <forster@ps.uni-saarland.de>
 
-This repository contains the Coq formalisation of the paper "Hilbert's tenth problem in Coq" ([pre-print](https://www.ps.uni-saarland.de/Publications/documents/Larchey-WendlingForster_2019_H10_in_Coq.pdf)), currently under review.
+This repository contains the Coq formalisation of the paper "Hilbert's tenth problem in Coq" ([pre-print](https://members.loria.fr/DLarchey/files/papers/H10_FSCD19.pdf)), to be presented at [FSCD 2019](http://easyconferences.eu/fscd2019).
 
 ## How to compile the code
 
@@ -14,4 +14,4 @@ The compiled HTML version of the files can be found [here](https://uds-psl.githu
 
 This repo is a static snapshot of our [library of undecidable problems](https://github.com/uds-pls/coq-library-undecidability) together with the html version of the code. Note that the repository also contains other, unrelated parts of the library, contributed by Yannick Forster, Edith Heiter, Dominik Kirst, Dominique Larchey-Wendling, and Gert Smolka.
 
-An overview over the code is in Appendix A of the ([paper](https://www.ps.uni-saarland.de/Publications/documents/Larchey-WendlingForster_2019_H10_in_Coq.pdf)).
+An overview over the code is in Appendix A of the ([paper](https://members.loria.fr/DLarchey/files/papers/H10_FSCD19.pdf)).
