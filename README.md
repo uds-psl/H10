@@ -2,7 +2,7 @@
 
 Dominique Larchey-Wendling <dominique.larchey-wendling@loria.fr>, Yannick Forster <forster@ps.uni-saarland.de>
 
-This repository contains the Coq formalisation of the paper "Hilbert's tenth problem in Coq" ([pre-print](https://www.ps.uni-saarland.de/Publications/documents/Larchey-WendlingForster_2019_H10_in_Coq.pdf)), currently under review.
+This repository contains the Coq formalisation of the paper ["Hilbert's tenth problem in Coq"](http://drops.dagstuhl.de/opus/frontdoor.php?source_opus=10534), accepted for publication at the 4th International Conference on Formal Structures for Computation and Deduction (FSCD 2019).
 
 ## How to compile the code
 
